@@ -126,7 +126,7 @@ tidy$Activity.Code = NULL
 tidy$Subject.ID = NULL
 
 
-write.table(tidy, './tidyData.txt',row.names=TRUE,sep='\t');
+write.table(tidy, './tidyData.txt',row.names=FALSE,sep='\t');
 
 
 
