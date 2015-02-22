@@ -2,6 +2,7 @@
 
 ### Source Data
 A full description of the data can be found at [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 [The source data for the project can be found here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ### Data Set Information
@@ -53,15 +54,15 @@ data frame to make it easier to read.
 ## Section 4. Appropriately label the data set with descriptive activity names.
 In this section the original column labels are replaced with comething more readable.
 Here we should include units, but I could not find the appropriate units for all readings.
-# 4.1 Replace mean with Mean and std with StdDev to make the data look tidy
-# 4.2 Replace tBodyAcc with (t) Body Acceleration
-# 4.3 Replace tGravityAcc with (t) Gravity Acceleration
-# 4.4 Replace tBodyGyro with (t) Body Gyro
-# 4.5 Replace fBodyAcc with (f) Body Acceleration
-# 4.6 Replace fGravityAcc with (f) Gravity Acceleration
-# 4.7 Replace fBodyGyro with (f) Body Gyro
-# 4.8 Replace fBodyBodyAcc with (f) Body Acceleration + JerkMag with Jerk Mag 
-# 4.9 Replace fBodyBodyGyro with (f) Body Gyro + JerkMag with Jerk Mag 
+4.1 Replace mean with Mean and std with StdDev to make the data look tidy
+4.2 Replace tBodyAcc with (t) Body Acceleration
+4.3 Replace tGravityAcc with (t) Gravity Acceleration
+4.4 Replace tBodyGyro with (t) Body Gyro
+4.5 Replace fBodyAcc with (f) Body Acceleration
+4.6 Replace fGravityAcc with (f) Gravity Acceleration
+4.7 Replace fBodyGyro with (f) Body Gyro
+4.8 Replace fBodyBodyAcc with (f) Body Acceleration + JerkMag with Jerk Mag 
+4.9 Replace fBodyBodyGyro with (f) Body Gyro + JerkMag with Jerk Mag 
 
 
 ## Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
